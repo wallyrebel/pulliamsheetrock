@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+  <title id="title">Residential sheetrock room</title>
+  <desc id="desc">Stylized residential room with unfinished sheetrock walls and ceiling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f1ea"/>
+      <stop offset="100%" stop-color="#ddd4c6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="960" fill="url(#bg)"/>
+  <path d="M0 742L440 538l760 20v402H0z" fill="#d0c4b0"/>
+  <path d="M0 222h602v520H0z" fill="#ece7dd"/>
+  <path d="M602 222h598v336L602 538z" fill="#e6e0d6"/>
+  <path d="M0 168l430-120h770l-598 174z" fill="#f8f6f1"/>
+  <path d="M602 222v316L430 418V48z" fill="#f0ebe1"/>
+  <g stroke="#fff" stroke-width="12">
+    <path d="M56 256v364M180 238v418M308 226v426M436 222v322M540 222v282"/>
+    <path d="M28 378h540M28 526h540M672 318h474M640 434h532"/>
+    <path d="M492 112l188 58M594 154l214 68M724 192l220 70M854 228l222 74"/>
+  </g>
+  <path d="M230 394h114v234H230z" fill="#b28c67"/>
+  <rect x="246" y="410" width="82" height="210" fill="#1d232b"/>
+  <rect x="780" y="352" width="154" height="154" fill="#f8f8f6" stroke="#bec7cf" stroke-width="12"/>
+  <circle cx="580" cy="548" r="18" fill="#1e2530"/>
+  <circle cx="84" cy="558" r="18" fill="#1e2530"/>
+</svg>

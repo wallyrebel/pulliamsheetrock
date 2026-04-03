@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>Pulliam Sheetrock Service</title>
+  <rect width="128" height="128" rx="28" fill="#1b2732"/>
+  <rect x="18" y="18" width="92" height="92" rx="20" fill="#f6efe3"/>
+  <path d="M44 34h22c14 0 24 7 24 21 0 15-10 22-24 22H58v17H44V34zm22 31c6 0 10-2 10-10 0-7-4-10-10-10H58v20h8z" fill="#cf4e2d"/>
+  <path d="M34 98l52-52 8 8-52 52H34v-8z" fill="#36546f"/>
+</svg>

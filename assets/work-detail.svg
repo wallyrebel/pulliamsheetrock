@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+  <title id="title">Sheetrock finishing detail</title>
+  <desc id="desc">Stylized detail illustration showing a smooth wall repair and finishing tools.</desc>
+  <defs>
+    <linearGradient id="base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f1e9"/>
+      <stop offset="100%" stop-color="#e3d7c7"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffefc"/>
+      <stop offset="100%" stop-color="#ede7dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="960" fill="url(#base)"/>
+  <rect x="126" y="96" width="760" height="632" rx="24" fill="url(#panel)" stroke="#c8bcab" stroke-width="8"/>
+  <g stroke="#fff" stroke-width="14" stroke-linecap="round">
+    <path d="M220 160v508M372 160v508M524 160v508M676 160v508"/>
+    <path d="M160 256h690M160 422h690M160 590h690"/>
+  </g>
+  <rect x="416" y="330" width="164" height="164" rx="24" fill="#f8f4ee" stroke="#cf4e2d" stroke-width="10"/>
+  <path d="M436 406c38-34 84-40 124-10" fill="none" stroke="#36546f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M930 210l146 112-48 64-150-112z" fill="#2d4153"/>
+  <rect x="844" y="338" width="152" height="28" rx="14" transform="rotate(-35 844 338)" fill="#abb7c2"/>
+  <path d="M1006 154l82 62c16 12 20 34 8 50l-24 32-146-112 24-32c12-16 34-20 50-8z" fill="#36546f"/>
+  <path d="M900 530c70 30 134 86 182 158" fill="none" stroke="#ece5d7" stroke-width="32" stroke-linecap="round"/>
+  <circle cx="232" cy="790" r="88" fill="#d6c9b5"/>
+  <path d="M192 794l26 26 54-64" fill="none" stroke="#cf4e2d" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

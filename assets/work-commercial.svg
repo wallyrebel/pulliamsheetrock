@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+  <title id="title">Commercial sheetrock ceiling and walls</title>
+  <desc id="desc">Stylized large interior with commercial-style ceiling finishing and sheetrock walls.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6f2eb"/>
+      <stop offset="100%" stop-color="#ddd4c4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="960" fill="url(#wall)"/>
+  <path d="M0 690h1200v270H0z" fill="#d7cab5"/>
+  <path d="M0 200h936v490H0z" fill="#f1ece4"/>
+  <path d="M936 200h264v490H936z" fill="#e6ddd2"/>
+  <g stroke="#fff" stroke-width="10">
+    <path d="M64 218l1020 0"/>
+    <path d="M128 154l914 0"/>
+    <path d="M198 100l820 0"/>
+    <path d="M78 314h990M78 416h990M78 518h990"/>
+    <path d="M148 218v312M268 218v312M388 218v312M508 218v312M628 218v312M748 218v312M868 218v312M988 218v312"/>
+  </g>
+  <g stroke="#fff" stroke-width="12">
+    <path d="M82 344v344M202 344v344M322 344v344M442 344v344M562 344v344M682 344v344M802 344v344"/>
+    <path d="M80 452h190M80 582h280M352 520h220M674 450h154M920 356v336"/>
+  </g>
+  <rect x="954" y="336" width="182" height="334" fill="#b9a68d"/>
+  <rect x="974" y="354" width="144" height="296" fill="#161c22"/>
+  <rect x="460" y="354" width="118" height="80" fill="#f2ede4" stroke="#fff" stroke-width="10"/>
+  <circle cx="526" cy="394" r="20" fill="#6888a2"/>
+  <circle cx="634" cy="316" r="18" fill="#6888a2"/>
+</svg>
