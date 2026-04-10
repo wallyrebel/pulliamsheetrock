@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pulliamsheetrock.com/sitemap.xml
+Sitemap: https://www.pulliamsheetrock.com/sitemap.xml

@@ -10,6 +10,6 @@ Static marketing site built for Cloudflare Pages.
 
 ## Notes
 
-- `sitemap.xml` and `robots.txt` currently assume `https://pulliamsheetrock.com/`
+- `sitemap.xml`, `robots.txt`, and the site metadata now use `https://www.pulliamsheetrock.com/`
 - Replace the SVG work example files in `assets/` with the original job photos any time if you want exact gallery images
 - Social sharing uses `assets/og-image.png`
