@@ -88,6 +88,78 @@ img {
   color: var(--accent);
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1.25rem;
+  margin: 0.5rem 0 0;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.62));
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 24px rgba(31, 39, 48, 0.08);
+  position: sticky;
+  top: 0.5rem;
+  z-index: 15;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.nav-brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent), #da6b3b);
+  color: white;
+  font-family: "Franklin Gothic Demi", "Arial Narrow", "Aptos Display", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  box-shadow: 0 6px 14px rgba(207, 78, 45, 0.22);
+}
+
+.nav-brand-text {
+  font-family: "Franklin Gothic Demi", "Arial Narrow", "Aptos Display", sans-serif;
+  font-weight: 800;
+  font-size: 1.12rem;
+  letter-spacing: -0.02em;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.nav-links a {
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--muted);
+  transition: color 180ms ease, background-color 180ms ease;
+}
+
+.nav-links a:hover {
+  color: var(--text);
+  background: rgba(25, 32, 40, 0.05);
+}
+
+.nav-cta {
+  color: white !important;
+  background: linear-gradient(135deg, var(--accent), #da6b3b) !important;
+  box-shadow: 0 8px 18px rgba(207, 78, 45, 0.22);
+  font-weight: 700 !important;
+}
+
 .section {
   padding: 4rem 0;
 }
@@ -559,13 +631,23 @@ summary::-webkit-details-marker {
 }
 
 .footer {
-  padding: 1rem 0 2.5rem;
+  padding: 1.5rem 0 2.5rem;
   color: var(--muted);
   text-align: center;
+  border-top: 1px solid var(--line);
+  margin-top: 1rem;
 }
 
 .footer p {
   margin: 0.25rem 0;
+  font-size: 0.92rem;
+}
+
+.footer p:first-child {
+  font-weight: 700;
+  color: var(--text);
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
 }
 
 .floating-call {
@@ -610,6 +692,21 @@ summary::-webkit-details-marker {
   .topbar {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.7rem;
   }
 
   .hero-card {
