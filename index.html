@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="assets/hero-interior.webp" fetchpriority="high">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Libre+Franklin:wght@700..800&display=swap">
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=6">
   <script>document.documentElement.className += " js";</script>
 
   <script type="application/ld+json">
@@ -40,7 +40,8 @@
         "@type": "GeneralContractor",
         "@id": "https://www.pulliamsheetrock.com/#business",
         "name": "Pulliam Sheetrock Service",
-        "alternateName": "Pulliam Sheetrock",
+        "legalName": "Pulliam Sheetrock Service LLC",
+        "alternateName": ["Pulliam Sheetrock", "Pulliam Sheetrock Service LLC"],
         "url": "https://www.pulliamsheetrock.com/",
         "description": "Sheetrock hanging, finishing, and repair services for residential and commercial jobs in Corinth, Oxford, Tupelo, Ripley, and across North Mississippi and Southwest Tennessee.",
         "image": "https://www.pulliamsheetrock.com/assets/og-image.png",
@@ -54,6 +55,22 @@
           "addressRegion": "MS",
           "addressCountry": "US"
         },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 34.6442731,
+          "longitude": -89.0303964
+        },
+        "hasMap": "https://www.google.com/maps?cid=15387246880298957759",
+        "sameAs": ["https://www.google.com/maps?cid=15387246880298957759"],
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "06:00", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "07:00", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "06:30", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "06:00", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "06:00", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "06:00", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "06:00", "closes": "17:00" }
+        ],
         "areaServed": [
           { "@type": "City", "name": "Corinth", "addressRegion": "MS" },
           { "@type": "City", "name": "Oxford", "addressRegion": "MS" },
@@ -203,6 +220,7 @@
         <a href="#work">Our Work</a>
         <a href="#gallery">Gallery</a>
         <a href="#areas">Service Areas</a>
+        <a href="#reviews">Reviews</a>
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
       </div>
@@ -247,6 +265,13 @@
               <span>Free estimates and direct communication from start to finish</span>
             </li>
           </ul>
+
+          <a class="rating-inline" href="https://www.google.com/maps?cid=15387246880298957759" target="_blank" rel="noopener"
+             aria-label="Rated 5.0 out of 5 on Google. Read our reviews.">
+            <span class="stars" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L1.6 7.7l5.8-.8z"/></svg><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L1.6 7.7l5.8-.8z"/></svg><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L1.6 7.7l5.8-.8z"/></svg><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L1.6 7.7l5.8-.8z"/></svg><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L1.6 7.7l5.8-.8z"/></svg></span>
+            <b>5.0</b>
+            <span>on Google</span>
+          </a>
         </div>
 
         <div class="hero-media">
@@ -448,6 +473,16 @@
             <a href="tel:+19016510234">901-651-0234</a>
             <small>Free estimates &middot; Ask for Manse Pulliam</small>
           </div>
+
+          <dl class="hours-list" style="margin-top:1.25rem;">
+            <div><dt>Monday</dt><dd>6:00 AM &ndash; 5:00 PM</dd></div>
+            <div><dt>Tuesday</dt><dd>7:00 AM &ndash; 5:00 PM</dd></div>
+            <div><dt>Wednesday</dt><dd>6:30 AM &ndash; 5:00 PM</dd></div>
+            <div><dt>Thursday</dt><dd>6:00 AM &ndash; 5:00 PM</dd></div>
+            <div><dt>Friday</dt><dd>6:00 AM &ndash; 5:00 PM</dd></div>
+            <div><dt>Saturday</dt><dd>6:00 AM &ndash; 5:00 PM</dd></div>
+            <div><dt>Sunday</dt><dd>6:00 AM &ndash; 5:00 PM</dd></div>
+          </dl>
         </div>
 
         <div class="city-grid" data-reveal>
@@ -538,6 +573,35 @@
       </div>
     </section>
 
+    <!-- ============================ Reviews ============================ -->
+    <section class="section container" id="reviews">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Reviews</p>
+        <h2>What customers say on Google.</h2>
+      </div>
+
+      <div class="review-panel" data-reveal>
+        <div class="review-score">
+          <strong>5.0</strong>
+          <span class="stars" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L1.6 7.7l5.8-.8z"/></svg><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L1.6 7.7l5.8-.8z"/></svg><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L1.6 7.7l5.8-.8z"/></svg><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L1.6 7.7l5.8-.8z"/></svg><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L1.6 7.7l5.8-.8z"/></svg></span>
+          <small>3 Google reviews</small>
+        </div>
+
+        <div class="review-copy">
+          <h3>Worked with us before?</h3>
+          <p>
+            Reviews are how most people in North Mississippi find a sheetrock crew they can
+            trust. If we have done work for you, a quick rating on Google genuinely helps.
+          </p>
+        </div>
+
+        <div class="review-actions">
+          <a class="button button-primary" href="https://www.google.com/maps/place//data=!4m3!3m2!1s0x40f0ca8b9b483b0f:0xd58a7b833374fbbf!12e1" target="_blank" rel="noopener">Rate Us on Google</a>
+          <a class="button button-secondary" href="https://www.google.com/maps?cid=15387246880298957759" target="_blank" rel="noopener">Read Reviews</a>
+        </div>
+      </div>
+    </section>
+
     <!-- ============================ Contact ============================ -->
     <section class="section container" id="contact">
       <div class="coverage-panel" data-reveal style="text-align:center;">
@@ -604,12 +668,14 @@
             <li><a href="/sheetrock-pickwick-tn/">Sheetrock Pickwick TN</a></li>
             <li><a href="/#areas">All service areas</a></li>
             <li><a href="/#faq">FAQ</a></li>
+            <li><a href="https://www.google.com/maps?cid=15387246880298957759" target="_blank" rel="noopener">Google reviews</a></li>
+            <li><a href="https://www.google.com/maps/place//data=!4m3!3m2!1s0x40f0ca8b9b483b0f:0xd58a7b833374fbbf!12e1" target="_blank" rel="noopener">Leave a review</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; <span id="year">2026</span> Pulliam Sheetrock Service &middot; Residential &amp; Commercial Sheetrock</p>
+        <p>&copy; <span id="year">2026</span> Pulliam Sheetrock Service LLC &middot; Residential &amp; Commercial Sheetrock</p>
         <p>Made by <a href="https://myersgroupmedia.com" target="_blank" rel="noopener">Myers Media</a></p>
       </div>
     </div>
@@ -617,6 +683,6 @@
 
   <a class="floating-call" href="tel:+19016510234" aria-label="Call Pulliam Sheetrock Service at 901-651-0234">Call 901-651-0234</a>
 
-  <script src="script.js?v=5" defer></script>
+  <script src="script.js?v=6" defer></script>
 </body>
 </html>

@@ -51,12 +51,41 @@ of every page.
   `script.js` adds the `js` class to `<html>`, so a JS failure degrades to a
   plain visible page rather than a blank one.
 
+## Google Business Profile
+
+The listing is **Pulliam Sheetrock Service LLC**, category "Drywall contractor",
+registered as a *service-area business* — it has no public street address, only
+a service-area centre point. Details on the site are taken from it:
+
+- Hours (Mon 6-5, Tue 7-5, Wed 6:30-5, Thu-Sun 6-5) are shown in the
+  service-area panel and marked up as `openingHoursSpecification`.
+- `legalName`, `geo`, `hasMap` and `sameAs` point at the profile.
+- Profile: `https://www.google.com/maps?cid=15387246880298957759`
+- Write a review: the same place with the `!12e1` suffix, which opens the
+  review composer for signed-in users.
+
+The CID comes from the profile URL's `!1s0x40f0ca8b9b483b0f:0xd58a7b833374fbbf`
+— the second hex value converted to decimal.
+
+### The rating is hardcoded
+
+"5.0" and "3 Google reviews" are written into `index.html` in two places (the
+hero chip and the review panel). **They do not update themselves** — re-check
+the profile and edit both when the review count moves.
+
+### Why there is no aggregateRating markup
+
+Deliberate. Google's structured-data policy does not allow a site to mark up
+ratings it collected from another platform, and self-serving `aggregateRating`
+on `LocalBusiness` can trigger a manual action. Showing the rating as visible
+text linked to the source is fine; marking it up is not. Add `Review` /
+`AggregateRating` only if reviews are ever collected on this site directly.
+
 ## Known gaps
 
-- The `LocalBusiness` schema in `index.html` has no street address, city, or
-  postal code, and no opening hours — only `addressRegion: MS`. Google Business
-  Profile matching and local-pack ranking both improve a lot once a real
-  address (or a declared service-area business) and hours are filled in.
-- There are no reviews or ratings on the site. `Review` / `AggregateRating`
-  markup is worth adding once there are real reviews to point at — do not add
-  it without them.
+- No street address is published, which is correct for a service-area business.
+  If a physical office is ever added, put it in the profile first, then in the
+  `PostalAddress` block in `index.html`.
+- Consider adding the second phone number (662-671-2470) that appears on some
+  Facebook posts, if it is still in use — it is not on the Google listing, so it
+  was left off.
